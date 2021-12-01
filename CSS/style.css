@@ -1,0 +1,136 @@
+body {
+background-color: rgb(0, 0, 0);
+margin-top: 60px;
+margin-left: 200px;
+margin-bottom: 0px;
+margin-right: 200px;
+font-family: 'Gochi Hand', sans-serif;
+}
+
+.logoimagen{
+
+width: 600px;
+display: block;
+margin: 0 auto;
+
+}
+
+
+nav{
+
+background-color: black;
+padding: 20px 0px;
+text-align: center;
+}
+
+
+
+
+
+.barradenavegacion {
+
+list-style: none;
+margin: 0;
+padding: 0;
+   
+}
+
+.navegacion {
+
+    display: inline-block;
+    width: 20%;
+    padding: 50px 20px 50px 20px; 
+}
+
+.navegacion:hover {
+background: rgb(195, 103, 223);
+}
+
+.navegacion a{
+color: rgb(171, 10, 177);
+text-decoration: rgb(0, 0, 0);
+text-decoration:none;
+font-weight: 900;
+}
+/* section parallax*/
+/* un selector simple  de id/clases*/
+.parallax{
+    /* añadir una imagen de fondo,.. ( son para viajar entre la carpeta principal,ubicacion en general*/
+background-image: url(../imagenes/paola-jara.png) ;
+/*para especificar el tamaño de la imagen de fondo*/
+background-size: contain ;
+/* altura minima del area de contenido de un elemento, se utiliza para evitar que la altura de CSS sea menor 
+que el valor especificcado*/
+min-height: 1500px; 
+/*  esta propiedad hace que mi imagen de fondo no aparezca en Mosaico */
+background-repeat: no-repeat;
+/*posicion de la imagen*/
+background-position: center;
+/* propiedad que establece si una imagen  de fondo se dezplaza  con el resto de la pagina o si es fija*/
+background-attachment: fixed;
+/* la propiedasd display flex, ayuda a que los elementos tengan un comportamiento flexible
+es decir que sea adaptable y haya un control de diseñi en diferentes dispositivos,diseño flexbox  */
+display: flex;
+/* es una propiedad de flexbox, que alinea los items del contenedor    */
+align-items: center;
+justify-content: center;
+
+
+}
+
+/* selector descendiente: coincide con todos los elementos que son descendientes de 
+un elemento especificado */
+
+div.tituloparalax  h2{
+font-size: 1cm;
+color: rgb(0, 0, 0);
+/* da una negrilla al texto-700grosor */
+font-weight: 800;
+text-align: center;
+}
+
+.parrafoparalax{
+display: flex;
+justify-content: center;
+/* box-model  */
+border: 2px solid black;
+/*  border-width: 2px
+border-style:solid
+boder-color: black   */
+}
+
+/* selector de Pseudoclase */
+span.parrafoparalax:hover{
+background-color: rgb(103, 16, 143);
+/* transparencia */
+opacity: 0.7;
+}
+span.parrafoparalax a {
+
+    color: black;
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 0;
+    text-decoration: none;
+font-size: 30px;
+}
+.titulopaola{
+
+color: rgb(100, 8, 136);
+font-weight: 900;
+}
+.information{
+
+    color: white;
+
+}
+.titulopaola2{
+    color: rgb(100, 8, 136);
+font-weight: 900;
+}
+
+
+
+
+
+
