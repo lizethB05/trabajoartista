@@ -4,15 +4,14 @@ margin-top: 60px;
 margin-left: 200px;
 margin-bottom: 0px;
 margin-right: 200px;
-font-family: 'Gochi Hand', sans-serif;
+font-family: 'Courier New', Courier, monospace ;
 }
-
 .logoimagen{
 
 width: 600px;
 display: block;
 margin: 0 auto;
-
+padding: auto;
 }
 
 
@@ -22,9 +21,6 @@ background-color: black;
 padding: 20px 0px;
 text-align: center;
 }
-
-
-
 
 
 .barradenavegacion {
@@ -74,8 +70,6 @@ display: flex;
 /* es una propiedad de flexbox, que alinea los items del contenedor    */
 align-items: center;
 justify-content: center;
-
-
 }
 
 /* selector descendiente: coincide con todos los elementos que son descendientes de 
@@ -114,23 +108,134 @@ span.parrafoparalax a {
     text-decoration: none;
 font-size: 30px;
 }
-.titulopaola{
-
-color: rgb(100, 8, 136);
-font-weight: 900;
-}
 .information{
 
-    color: white;
+    display: inline-flex;
 
 }
-.titulopaola2{
-    color: rgb(100, 8, 136);
+.information p{
+
+color: white;
+/* coloca el maximo de ancho a un elemento y impide que el valor de width sea mas largo que el valor 
+especificado en max-width */
+max-width: 50%;
+margin: 0;
+/* propiedad flexible- alinea al centro- la alineacion  de un elemnto dentro del contenedor */
+align-self: center;
+padding:50px ;
+/* establece la altura entre lineas de parrafo  */ 
+line-height: 15px;
+}
+
+
+span.titulopaola {
+    color: purple;
+display: inline-flex;
+font-size: 60 px;
+font-weight: 800;
+font-family: Arial, Helvetica, sans-serif; 
+}
+span.titulopaola2{
+    color: purple;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+div.information img{
+
+max-width: 50%;
+height: auto;
+padding: 0px 50px;
+}
+
+section.contentmusic{
+letter-spacing: 5px;
+line-height: 2px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section.contentmusic  h2{
+color: white;
 font-weight: 900;
+text-align: center;
+margin: 150px 0px;
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
 }
 
+div.container{
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: center;
+margin: auto;
+
+}
+div.container div.card {
+width: 400px;
+height: 500px;
+text-align: center;
+}
+div.container .card img{
+    width: 350px;
+    height: 350px;
+    border-radius:8px 8px 0px 0px;
+    -webkit-border-radius:8px 8px 0px 0px;
+    -moz-border-radius:8px 8px 0px 0px;
+    -ms-border-radius:8px 8px  0px  0px;
+    -o-border-radius:8px 8px 0px 0px;
+    -webkit-border-radius:8px 8px 0px 0px;
+    -o-border-radius:8px 8px 0px 0px;
+}
+
+div.container.card h4{
+font-weight: 600;
+color: white;
+}
+div.container .card p{
+font-size: 16px;
+font-weight: 300;
+color: white;
+}
+div.container .card a{
+text-decoration: none;
+color: purple;
+font-weight: 500;
+}
+div:hover{
+width:300px;}
+div.containervideos div.inframe{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    justify-content: left;
+    margin-bottom: 20px; }
+  div.video{
+    padding: 50px 40px 50px 40px;}
+  
+   div.footer img{
+    width: 50px;
+    height: 25px;
+    margin: auto;
+background-position: center; }
+
+    div.containervideos h2{
+        color: white;
+        font-weight: 900;
+        text-align: center;
+        margin: 100px 0px;
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;}
+
+ div.footer p{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 20px;
 
 
-
-
-
+ }
